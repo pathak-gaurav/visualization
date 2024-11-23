@@ -39,8 +39,8 @@ Ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/visualization-explorer.git
-   cd visualization-explorer
+   git clone https://github.com/pathak-gaurav/visualization.git
+   cd visualization
    ```
 
 2. Install dependencies:
