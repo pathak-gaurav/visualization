@@ -153,12 +153,14 @@ This project is licensed under the [MIT License](LICENSE).
 ### Home Screen
 
 Displays all available categories and visualizations:
-![Home Screen]
+![Home Screen]![HomeScreen](https://github.com/user-attachments/assets/318712b9-12e9-4e49-8226-57e60181125e)
+
 
 ### Kafka Workflow Visualization
 
-Interactive Kafka producer-to-consumer flow:
-![Kafka Workflow]
+Interactive Java Memory Management flow:
+![JMM Workflow]![JMM](https://github.com/user-attachments/assets/2819e774-e796-4e04-9e65-8b4e63341ac5)
+
 
 ---
 
