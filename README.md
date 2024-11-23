@@ -1,70 +1,170 @@
-# Getting Started with Create React App
+# Visualization Explorer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Visualization Explorer is a React-based web application that provides interactive visualizations for core programming concepts, microservices patterns, Spring Boot principles, Kafka workflows, and more. It is designed to help developers understand complex topics through clear and intuitive interfaces.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Algorithm Visualizations**
+    - Explore algorithms like reversing linked lists, removing duplicates, and stack manipulations.
+- **Microservice Patterns**
+    - Visualize transaction patterns, CI/CD pipelines, service flows, and Kafka workflows.
+- **Spring Boot Concepts**
+    - Learn about Spring Boot annotations, REST APIs, testing, security, AOP, and more.
+- **Java Memory Management**
+    - Understand how classes, objects, and variables are stored in memory.
+- **Hibernate Visualization**
+    - Explore concepts like caching, locking, and relationships (One-to-One, One-to-Many, etc.).
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend:** React.js
+- **Icons:** [Lucide Icons](https://lucide.dev/)
+- **Styling:** Tailwind CSS
+- **Routing:** React Router DOM
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Ensure you have the following installed:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js >= 16.0
+- npm or yarn
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/visualization-explorer.git
+   cd visualization-explorer
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Start the development server:
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Open your browser and navigate to:
+   ```
+   http://localhost:3000
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## Project Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The project is structured as follows:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+src/
+├── algorithms/                 # Algorithm visualizations
+│   ├── RemoveDuplicatesVisualization.js
+│   ├── ReverseLinkedListVisualization.js
+│   ├── PalindromeVisualization.js
+├── microservices/              # Microservice visualizations
+│   ├── KafkaFlow.js
+│   ├── SpringBootFlow.js
+│   ├── DeploymentPipeline.js
+│   ├── MicroserviceFlow.js
+│   ├── HibernateVisualization.js
+├── java/                       # Java-specific visualizations
+│   ├── JavaMemoryVisualization.js
+├── App.js                      # Main application
+├── index.js                    # Application entry point
+├── styles.css                  # Global styles
+```
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Available Visualizations
 
-### Analyzing the Bundle Size
+### Algorithm Visualizations
+- **Remove Duplicates**
+- **Reverse Linked List**
+- **Palindrome Check**
+- **Stack Push at Bottom**
+- **Reverse Stack**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Microservice Patterns
+- **Transaction Patterns**
+- **CI/CD Pipeline**
+- **Kafka Workflow**
+- **Spring Boot Workflow**
+- **Service Interactions**
 
-### Making a Progressive Web App
+### Java Visualizations
+- **Java Memory Management**
+- **Hibernate Concepts**
+    - Caching, locking, table strategies, and relationship mappings.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. Navigate through the categories displayed on the home screen.
+2. Click on a category to see available visualizations.
+3. Explore individual visualizations with interactive steps, commands, and code snippets.
+4. Use the **Next** and **Reset** buttons for guided or resettable flows.
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Contributing
 
-### `npm run build` fails to minify
+Contributions are welcome! To contribute:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add your message here"
+   ```
+4. Push to your branch:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+5. Open a pull request.
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## Screenshots
+
+### Home Screen
+
+Displays all available categories and visualizations:
+![Home Screen]
+
+### Kafka Workflow Visualization
+
+Interactive Kafka producer-to-consumer flow:
+![Kafka Workflow]
+
+---
+
+## Contact
+
+If you have any questions, suggestions, or issues, please feel free to reach out.
+
+- **Author:** Gaurav Pathak
+- **GitHub:** [pathak-gaurav](https://github.com/pathak-gaurav)
